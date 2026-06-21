@@ -1,4 +1,8 @@
-<!-- index.md-->
+---
+hide:
+  - navigation
+  - toc
+---
 
 <div class="hero">
   <div class="hero-text">

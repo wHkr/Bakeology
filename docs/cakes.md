@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+    - toc
+---
 <!-- cakes.md -->
 # Cakes
 ---

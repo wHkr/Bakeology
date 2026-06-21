@@ -11,7 +11,7 @@ nav:
   - Contact: contact.md
 theme:
   name: material
-  palette:
+  palette: # Commented the background & root colors for this
     # Dark Mode
     - scheme: slate
       primary: teal
@@ -29,11 +29,13 @@ theme:
   favicon: img/icons/bakeology.jpg # No leading '/'
   logo: img/icons/logo.png # '/'; indicates to start from root
   features:
-    - navigation.instant
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.path
-    - navigation.top
+    - header.autohide # Hides header after scrolling down
+    - navigation.instant # Internal links wont be totally reloaded - Saves time
+    - navigation.instant.progress # Loading indicator
+    - navigation.tabs # Nav tabs on header under the name
+    #- navigation.tabs.sticky # Nav tabs lock below the header
+    - navigation.path # Breadcrumbs above title of each page
+    - navigation.top # Back to top button after scrolling down
     - search.highlight
     - search.suggest
 extra_javascript:

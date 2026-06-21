@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+    - toc
+---
 <!-- about.md -->
 # About
 ---

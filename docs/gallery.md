@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+    - toc
+---
 <!-- gallery.md -->
 
 <div class="gallery">
