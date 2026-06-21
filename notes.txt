@@ -38,6 +38,10 @@ theme:
         icon: material/weather-night
         name: Light mode
 
+CSS colors
+Charcoal: #4a4a4a
+Cream:    #faf7f2
+Teal:     #00b5bb
 ---------------------------------------
 > `favicon.ico` - This icon is specific to the tab in your computer window.
         - its not on the web page
