@@ -11,23 +11,23 @@ nav:
   - Contact: contact.md
 theme:
   name: material
+  palette:
+    # Dark Mode
+    - scheme: slate
+      primary: teal
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+    # Light Mode
+    - scheme: default
+      primary: grey
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Light mode
   favicon: img/icons/bakeology.jpg # No leading '/'
   logo: img/icons/logo.png # '/'; indicates to start from root
- # palette: Light and Dark settings button - Missing a dependency
-    # Dark Mode
-  #  - scheme: slate
-  #    toggle:
-  #      icon: material/weather-sunny
-  #      name: Dark mode
-  #      primary: deep orange
-  #      accent: deep purple
-  #    # Light Mode
-  #  - scheme: default
-   #   toggle:
-   #     icon: material/weather-night
-   #     name: Light mode
-   #     primary: blue
-   #     accent: deep orange
   features:
     - navigation.instant
     - navigation.tabs
@@ -36,5 +36,7 @@ theme:
     - navigation.top
     - search.highlight
     - search.suggest
+extra_javascript:
+  - javascripts/extra.js
 extra_css:
   - stylesheets/extra.css
