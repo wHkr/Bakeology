@@ -5,7 +5,7 @@ hide:
 ---
 
 <div class="hero-text">
-    <img src="img/icons/background-image.jpg">
+    <img src="img/hero/background-img.jpg">
     <h1>Bakeology</h1>
     <p>Sweet goods to sweeten up your taste buds!</p>
 </div>
