@@ -10,7 +10,7 @@ hide:
     <img src="../img/pastries/heart-shaped-pastries.jpg">
     <div class="menu-text">
         <p class="item-title">Heart Shaped Pastries</p>
-        <p>Flaky, golden pastry with a rich buttery finish.</p>
+        <p>Flaky, golden pastry with a rich buttery finish. Classic comforting finish with every bite.</p>
     </div>
 </div>
 

@@ -11,21 +11,6 @@ nav:
   - Contact: contact.md
 theme:
   name: material
-  palette: # Commented the background & root colors for this
-    # Dark Mode
-    - scheme: slate
-      primary: teal
-      accent: pink
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-    # Light Mode
-    - scheme: default
-      primary: grey
-      accent: teal
-      toggle:
-        icon: material/weather-night
-        name: Light mode
   favicon: img/icons/bakeology.jpg # No leading '/'
   logo: img/icons/logo.png # '/'; indicates to start from root
   features:

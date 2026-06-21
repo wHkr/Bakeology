@@ -10,9 +10,6 @@ hide:
     <p>Sweet goods to sweeten up your taste buds!</p>
   </div>
 </div>
-<p><a class="hero-button" href="cakes/">View Menu</a></p>
-
-# Home
 
 > Welcome to Bakeology, where every loaf, pastry, and cake is crafted with care. From fresh-baked breads to custom celebration cakes, our goal is to bring people together through quality ingredients and timeless recipes.
 
