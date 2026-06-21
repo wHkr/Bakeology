@@ -12,23 +12,38 @@ body {
 
 /*------------------------------ HeroItem-Start -----------------------------*/
 .hero {
-    min-height: 250px; /* "" - 300px */
-    padding: 3rem 1rem; /* "" - 4rem */
-
-    background-image: url("../img/icons/bakeology.jpg");
-    background-size: cover; /* Cannot be absolutely positioned (110%) */
-    background-position: center;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    text-align: center;
-
+/*
+Uses your site's gray color.
+Makes the card wider.
+Softens the contrast.
+Adds a subtle border that makes the glass effect look intentional.
+*/
     position: relative;
-    overflow: hidden;
+    z-index: 1;
+    color: white;
+    background: rgba(75, 74, 74, 0.35);
+    backdrop-filter: blur(10px);
+    padding: 2rem 4rem;
+    border-radius: 20px;
+    box-shadow:
+        0 10px 35px rgba(0,0,0,0.30);
+    border: 1px solid rgba(255,255,255,0.15);
+    max-width: 850px;
+    width: min(90%, 850px);
 }
 
+.hero-logo {
+/*
+Soften the logo a little
+*/
+    width: 140px;
+    margin: 0 auto 1rem auto;
+    opacity: 0.95;
+    filter:
+        drop-shadow(0 3px 10px rgba(0,0,0,0.25));
+    box-shadow: none;
+}
+/*
 .hero-button {
     background: white;
     color: black;
@@ -36,6 +51,7 @@ body {
     border-radius: 8px;
     text-decoration: none;
 }
+*/
 
 /* Dark overlay (VERY important for readability) */
 .hero::before {
@@ -50,12 +66,15 @@ body {
     color: white;
     position: relative;
     z-index: 1;
-    background: rgba(255,255,255,0.15);
-    backdrop-filter: blur(8px);
-    padding: 2rem 3rem;
+    background: rgba(45,45,45,0.55);
+    backdrop-filter: blur(10px);
+    padding: 2rem 4rem;
+    border: 1px solid rgba(255,255,255,0.12);
     border-radius: 16px;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+    box-shadow:
+        0 10px 35px rgba(0,0,0,0.35);
     max-width: 700px;
+    width: min(90%, 850px);
 }
 
 .hero-text h1 {
@@ -66,9 +85,11 @@ body {
 }
 
 .hero-text p {
+    color: rgba(255,255,255,0.95);
     font-size: 1.3rem;
     line-height: 1.5;
-    text-shadow:1px 1px 6px rgba(0,0,0,0.5);
+    text-shadow:
+        0 2px 8px rgba(0,0,0,0.7);
 }
 
 
@@ -94,6 +115,11 @@ body {
     }
 }
 
+/* Cannot rotate hero background images, use GIMP
+.rotated-image {
+    transform: rotate(90deg);
+}
+*/
 /*---------------------------- HeroItem-End -----------------------------*/
 
 .cake-intro {
