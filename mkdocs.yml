@@ -12,10 +12,7 @@ nav:
 theme:
   name: material
   favicon: /img/icons/bakeology.jpg
-  logo: /img/icons/site.png
-  #palette:
-   # primary: grey
-  # accent: pink
+  logo: /img/icons/logo.png
   features:
     - navigation.instant
     - navigation.tabs
@@ -26,11 +23,3 @@ theme:
     - search.suggest
 extra_css:
   - stylesheets/extra.css
-#plugins:
-#  - search
-#  - resize-images:
-#      source-dir: assets-large
-#      target-dir: assets
-#      enable_cache: True
-#      size: [800, 600]
-#      extensions:  ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'svg']
