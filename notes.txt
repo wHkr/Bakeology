@@ -1,0 +1,51 @@
+# notes.txt
+
+- Bakery-MkDocs
+    - .gitignore # See below
+	- mkdocs.yml
+	- docs/
+        - images/
+            - favicon.ico # Webpage Icon
+		- index.md
+		- home.md
+		- cakes.md
+		- pastries..md
+		- contact.md
+    - site/
+        - 404.html
+        - index.html
+        - notes.txt
+        - search.html
+        - sitemap.xml
+        - sitemap.xml.gz
+
+---------------------------------------
+> `favicon.ico` - This icon is specific to the tab in your computer window.
+        - its not on the web page
+
+> .gitignore
+    - In root of project!!
+    - Used if a site like mkdocs literally regenerates their site over and over.
+        You don't want to waste the time and memory saving something that'll be recreated anyways.
+    - Add a line containing `site/` to your `.gitignore` file.
+    - "PS > echo "site/ >> .gitignore" - inside `.gitignore`
+
+> [!FAQ]- Are callouts foldable?
+> Yes! In a foldable callout, the contents are hidden until it is expanded.
+
+
+
+```markdown
+> [!TIP] Callouts can have custom titles, which also supports **markdown**!
+```
+
+
+```markdown
+.callout[data-callout="my-callout-type"] {
+    --callout-color: 0, 0, 0;
+    --callout-icon: icon-id;
+    --callout-icon: '<svg>...custom svg...</svg>';
+}
+```
+
+Sets and plugins can define custom callouts, too, or overwrite the default options. Callout types and icons are defined in CSS, where the color is an `r, g, b` tuple and the icon is the icon ID fromnipp any internally supported icon (like `lucide-info`). Alternatively, you can specify an SVG icon as a string.

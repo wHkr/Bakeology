@@ -1,0 +1,264 @@
+/* extra.css - css for Bakeology */
+
+:root {
+  --md-primary-fg-color: #4a4a4a;
+  --md-accent-fg-color: #d98c9a;
+}
+/* Soft background feel */
+body {
+background-color: #faf7f2;
+}
+
+/*------------------------------ HeroItem-Start -----------------------------*/
+.hero {
+  height: 400px;
+
+  /* 👇 your background image */
+  background-image: url("../img/icons/bakeology.jpg");
+
+  background-size: 110%;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 60vh;
+
+  text-align: center;
+}
+
+.hero-button {
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* Dark overlay (VERY important for readability) */
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* Text styling */
+.hero-text {
+  position: relative;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+}
+/*---------------------------- HeroItem-End -----------------------------*/
+
+/* class="cake-title"; Title names under cakes, above description */
+.cake-title {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+}
+
+/* class="caption";Description underneath cake names */
+.caption {
+    text-align: center;
+    font-style: italic;
+    color: #6b5b53;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+/* Target specific images - Created custom bakery img class */
+.bake-image {
+    display: block;
+    margin: 25px auto;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Center images nicely */
+img {
+display: block; /*Auto Center*/
+margin: 25px auto; /*Auto Center*/
+border-radius: 14px;
+
+/* Shadow effect */
+box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12); /*
+    0 -> horizontal shadow
+    4px -> vertical drop
+    12px -> blue (softness)
+    rgba -> color + transparency */
+
+/* Controls how changes happen over time */
+transition: box-shadow 0.2s ease; /*
+    0.2s -> Duration (how long)
+    ease -> Speed curve (how it accelerates) */
+}
+
+/* Image hover effect */
+img:hover {
+transform: translateY(-3px);/*scale(1.02);*/
+box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18); /*
+    The normal image state is class="img"
+    This is the hover state, it will be different than 'img' */
+}
+
+/* Add soft card look to sections */
+.md-typeset h2 {
+margin-top: 40px;
+border-bottom: 2px solid #eee;
+padding-bottom: 10px;
+}
+
+/* Bakery-style titles */
+h1, h2 {
+font-family: 'Georgia', serif;
+}
+
+/*---------------------------- MenuItem-Start -----------------------------*/
+/* rem = Relative to page size */
+/* px = Fixed (Breaks layouts) */
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 20px;
+}
+
+.menu-item  img {
+    width: 160px;/* Pastry image size */
+    height: auto;
+    border-radius: 10px;
+
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.menu-item:hover {
+    transform: translateX(5px);
+    transition: 0.2s ease;
+}
+
+/* Text Container */
+.menu-text {
+    max-width: 500px;
+}
+
+.menu-text h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.menu-text p {
+    margin: 5px 0 0;
+    color: #6b5b53;
+    font-size: 0.95rem;
+}
+
+/* Title */
+.item-title { /* h3 gave you automatic styling - must manually name it */
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0;
+    /*margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;*/
+}
+/*---------------------------- MenuItem-Stop -----------------------------*/
+
+/*---------------------------- BreadItem-Start -----------------------------*/
+.bread-item {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 50px 0;
+}
+
+.bread-item img {
+  width: 300px;
+  border-radius: 14px;
+
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.bread-item:nth-child(even) { /* Make it alternate, left/right */
+    flex-direction: row-reverse;
+}
+
+.bread-text {
+  max-width: 500px;
+}
+
+.bread-text h2 {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+}
+
+.bread-text p {
+  color: #6b5b53;
+}
+/*---------------------------- BreadItem-Stop -----------------------------*/
+
+/*---------------------------- Gallery-Start -----------------------------*/
+/* Grid = Layout */
+/* Card = Structure */
+/* Hover = Interaction */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 14px;
+    text-align: center;
+
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: 0.2s ease;
+}
+
+.card {
+    transform:  translateY(-5px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 100%;
+    height: auto; /* CSS controls the sizing - Much safer this way */
+    border-radius: 10px;
+}
+
+/* These should be added to gallery - I have them above
+.cake-title {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+}
+.caption {
+    text-align: center;
+    font-style: italic;
+    color: #6b5b53;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+*/
+/*---------------------------- Gallery-End -----------------------------*/

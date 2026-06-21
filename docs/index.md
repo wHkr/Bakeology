@@ -1,0 +1,15 @@
+<!-- index.md-->
+
+<div class="hero">
+  <div class="hero-text">
+    <h1>Bakeology</h1>
+    <p>Sweet goods to sweeten up your taste buds!</p>
+  </div>
+</div>
+<p><a class="hero-button" href="cakes/">View Menu</a></p>
+
+# Home
+
+> Welcome to Bakeology, where every loaf, pastry, and cake is crafted with care. From fresh-baked breads to custom celebration cakes, our goal is to bring people together through quality ingredients and timeless recipes.
+
+> Browse our selection of artisan breads, handcrafted pastries, and custom cakes to find the perfect treat for any occasion.

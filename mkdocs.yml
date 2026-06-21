@@ -1,0 +1,36 @@
+# mkdocs.yml
+site_url: https://wHkr.github.io/Bakeology/
+site_name: Bakeology
+nav:
+  - Home: index.md
+  - About: about.md
+  - Cakes: cakes.md
+  - Pastries: pastries.md
+  - Breads: breads.md
+  - Gallery: gallery.md
+  - Contact: contact.md
+theme:
+  name: material
+  favicon: /img/icons/bakeology.jpg
+  logo: /img/icons/site.png
+  #palette:
+   # primary: grey
+  # accent: pink
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.suggest
+extra_css:
+  - stylesheets/extra.css
+#plugins:
+#  - search
+#  - resize-images:
+#      source-dir: assets-large
+#      target-dir: assets
+#      enable_cache: True
+#      size: [800, 600]
+#      extensions:  ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'svg']
