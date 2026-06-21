@@ -4,8 +4,16 @@ hide:
   - toc
 ---
 <!-- breads.md -->
-# Breads
+# Fresh Artisan Breads
+
 ---
+
+<p class="bread-intro">
+Our breads are crafted using traditional techniques, quality ingredients, and plenty of patience. From rustic sourdough loaves to soft sandwich breads, each loaf is baked to bring warmth and flavor to your table.
+</p>
+
+---
+
 <div class="bread-item">
   <img src="../img/breads/bread-basket.jpg">
 

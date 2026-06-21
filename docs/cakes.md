@@ -8,7 +8,9 @@ hide:
 
 ---
 
+<p class="cake-intro">
 Our cakes are made to celebrate life's special moments. We offer classic flavors, custom designs, and seasonal creations for birthdays, weddings, anniversaries, and more.
+</p>
 
 ---
 

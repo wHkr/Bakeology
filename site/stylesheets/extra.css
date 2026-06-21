@@ -38,7 +38,7 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0.25); /* 0.45 */
 }
 
 /* Text styling - Give the text a glass card overlay */
@@ -65,6 +65,26 @@ body {
     font-size: 1.3rem;
     line-height: 1.5;
     text-shadow:1px 1px 6px rgba(0,0,0,0.5);
+}
+
+
+@media screen and (max-width: 768px) {
+    .hero { /* Make hero shorter on phone */
+        height: 300px; /* 250px */
+    }
+
+    .hero-text { /* Shrink the card */
+        padding: 1rem 1.5rem;
+        width: 85%;
+    }
+
+    .hero-text h1 { /* Scale down the title */
+        font-size: 2rem;
+    }
+
+    .hero-text p { /* Scale down the title */
+        font-size: 1rem;
+    }
 }
 
 /*---------------------------- HeroItem-End -----------------------------*/

@@ -4,8 +4,16 @@ hide:
     - toc
 ---
 <!-- pastries.md -->
-# Pastries
+# Handcrafted Pastries
+
 ---
+
+<p class="pastry-intro">
+From flaky croissants to sweet danishes and seasonal favorites, our pastries are baked fresh and made with quality ingredients.
+</p>
+
+---
+
 <div class="menu-item">
     <img src="../img/pastries/heart-shaped-pastries.jpg">
     <div class="menu-text">
