@@ -17,10 +17,10 @@ theme:
     - header.autohide # Hides header after scrolling down
     - navigation.instant # Internal links wont be totally reloaded - Saves time
     - navigation.instant.progress # Loading indicator
-    - navigation.tabs # Nav tabs on header under the name
+    #- navigation.tabs # Nav tabs on header under the name
     #- navigation.tabs.sticky # Nav tabs lock below the header
-    - navigation.path # Breadcrumbs above title of each page
-    - navigation.top # Back to top button after scrolling down
+    #- navigation.path # Breadcrumbs above title of each page
+    #- navigation.top # Back to top button after scrolling down
     - search.highlight
     - search.suggest
 extra_javascript:
