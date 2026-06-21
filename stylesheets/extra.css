@@ -18,6 +18,7 @@ Makes the card wider.
 Softens the contrast.
 Adds a subtle border that makes the glass effect look intentional.
 */
+    background-image: url("../img/hero/background-img.jpg");
     position: relative;
     z-index: 1;
     color: white;
