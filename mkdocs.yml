@@ -11,8 +11,8 @@ nav:
   - Contact: contact.md
 theme:
   name: material
-  favicon: /img/icons/bakeology.jpg
-  logo: /img/icons/logo.png
+  favicon: img/icons/bakeology.jpg # No leading '/'
+  logo: img/icons/logo.png # '/'; indicates to start from root
   features:
     - navigation.instant
     - navigation.tabs
