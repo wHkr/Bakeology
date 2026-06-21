@@ -2,7 +2,7 @@
 
 :root {
   --md-primary-fg-color: #4a4a4a;
-  --md-accent-fg-color: #d98c9a;
+  --md-accent-fg-color: #00b5bb;
 }
 
 /* Soft background feel */
@@ -116,6 +116,11 @@ Soften the logo a little
 
 
 @media screen and (max-width: 768px) {
+
+    .md-header__button.md-icon {
+        color: #00b5bb;
+    }
+    
     .hero { /* Make hero shorter on phone */
         min-height: 300px; /* 250px */
     }
@@ -221,6 +226,13 @@ img:hover {
     The normal image state is class="img"
     This is the hover state, it will be different than 'img' */
 }
+
+.md-header__button.md-icon {  /* Hamburger icon */
+    color: #00b5bb;
+
+}
+
+/* .md-header__button -- All header icons */
 
 .md-typeset {
     font-size: 1.05rem;
