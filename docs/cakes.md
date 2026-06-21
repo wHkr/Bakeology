@@ -5,8 +5,12 @@ hide:
 ---
 <!-- cakes.md -->
 # Cakes
+
 ---
+
 Our cakes are made to celebrate life's special moments. We offer classic flavors, custom designs, and seasonal creations for birthdays, weddings, anniversaries, and more.
+
+---
 
 <img class="bake-img" src="../img/cakes/Raspberry_chocolate_cheese_cake.jpg" width="400">
 <p class="cake-title">Raspberry Chocolate Cheesecake</p>
