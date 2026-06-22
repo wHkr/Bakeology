@@ -9,6 +9,7 @@ hide:
 
  ---
 
+
 <p class="gallery-intro">
 Take a look at some of our favorite creations. From custom celebration cakes to fresh pastries and artisan breads, every item is made with attention to detail and a passion for baking.
 </p>

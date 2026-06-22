@@ -18,6 +18,7 @@ hide:
 From fresh breads and pastries to custom cakes and special orders, discover everything Bakeology has to offer.
 </p>
 
+
 <div class="home-grid">
 
   <a href="breads/" class="home-card">

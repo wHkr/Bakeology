@@ -110,6 +110,33 @@ full banner again using the .jpg
     font-style: italic;
 }*/
 
+    /* Shadow effect */
+box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+   - 0 -> horizontal shadow
+   - 4px -> vertical drop
+   - 12px -> blue (softness)
+   - rgba -> color + transparency
+
+    /* Controls how changes happen over time */
+transition: box-shadow 0.2s ease;
+   - 0.2s -> Duration (how long)
+   - ease -> Speed curve (how it accelerates)
+}
+
+--File Size--
+Icons/Locos
+- PNG if transparency needed
+- SVG if possible
+logo: 512x512
+favicon: 32x32
+icons: 64x64
+
+Bakeology (Get it to ~1200px on long edge)
+- hero: 1292x1080 (16:9)
+- cakes: 1200x900 (4:3)
+- breads: 100x750 (4:3)
+- pastries: 1200x900 (4:3)
+
 
 --My theme--
 Soft Highlight #555555
