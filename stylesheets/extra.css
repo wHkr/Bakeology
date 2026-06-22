@@ -1,235 +1,18 @@
 /* extra.css - css for Bakeology */
 
 :root {
-  --md-primary-fg-color: #4a4a4a;
+  --md-primary-fg-color: #f2f2f2; /* 4a4a4a */
   --md-accent-fg-color: #00b5bb;
 }
+/* Custome colors
+#232323
+#2b2b2b
+#00b5bb -
+*/
 
 /* Soft background feel */
 body {
-    background-color: #faf7f2;
-    background-image: url("../img/textures/paper-texture.png");
-    background-repeat: repeat;
-}
-
-.about-intro {
-    color: #6b5b53;
-    text-shadow:
-        0 1px 1px rgba(255,255,255,0.25),
-        0 1px 3px rgba(0,0,0,0.05);
-    font-style: italic;
-    text-align: center;
-    max-width: 700px;
-    margin: 0 auto 2rem auto;
-}
-
-/*------------------------------ HeroItem-Start -----------------------------*/
-.home-grid {
-    display: grid;
-    gap: 1.5rem;
-    margin-top: 2rem;
-}
-
-.home-card {
-    overflow: hidden; /* image corners follow the card border radius cleanly. */
-    display: block;
-    text-decoration: none;
-    color: inherit;
-    background: #2b2b2b;
-    border-left: 4px solid #00b5bb;
-    border-radius: 10px;
-    padding: 1rem;
-    transition: all .25s ease;
-}
-
-.home-card:hover {
-    transform: translateY(-4px);
-    border-left-width: 8px;
-    box-shadow: 0 12px 30px rgba(0,0,0,.18);
-}
-
-.home-card img {
-    margin: 0;
-    border-radius: 0;
-}
-
-.home-card h3 {
-    text-align: center;
-}
-
-.home-link {
-    display: block;
-    text-align: center;
-    margin-top: .75rem;
-}
-
-/* Text styling - Give the text a glass card overlay */
-.hero-text {
-    background: rgba(35,35,35,0.75);
-    position: relative;
-    overflow: hidden;
-    border-radius: 20px;
-    margin-bottom: 2rem;
-}
-
-.hero-text img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    display: block;
-}
-
-.hero-text h1 {
-    font-size: clamp(3rem, 6vw, 5rem);
-    font-weight: 800;
-    margin-bottom: 0.5rem;
-    color: white;
-    text-shadow:
-        0 1px 2px rgba(255,255,255,0.15),
-        0 4px 12px rgba(0,0,0,0.45);
-}
-
-.hero-text p {
-    margin-top: 0; /* pulls tagline closer to bakeology title */
-    color: rgba(255,255,255,0.95);
-    font-size: 1.3rem;
-    line-height: 1.5;
-    text-shadow:
-        0 2px 8px rgba(0,0,0,0.7);
-}
-
-.hero-overlay {
-    position: absolute;
-    inset: 0;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
-
-    background: rgba(0,0,0,0.45);
-
-    color: white;
-    padding: 2rem;
-}
-
-.hero-overlay h1 {
-    color: white;
-    font-size: clamp(3rem, 6vw, 5rem);
-    margin-bottom: .5rem;
-}
-
-.hero-overlay p {
-    color: white;
-    font-size: 1.25rem;
-    max-width: 700px;
-}
-
-@media (min-width: 1200px) {
-    .home-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .hero-overlay h1 {
-     font-size: 2.5rem;
-    }
-
-    .hero-overlay p {
-      font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
-
-    .md-header__button.md-icon {
-        color: #00b5bb;
-    }
-
-    .hero { /* Make hero shorter on phone */
-        min-height: 300px; /* 250px */
-    }
-
-    .hero-text { /* Mobile gets a tiny glass card */
-        background: rgba(35,35,35,0.75);
-        border: 2px solid rgba(255,255,255,0.25);
-        backdrop-filter: blur(6px);
-        box-shadow:
-            0 8px 25px rgba(0,0,0,0.4);
-        padding: 1rem;
-        width: min(90%, 350px);
-    }
-
-    .hero-text h1 { /* Scale down the title */
-        font-size: 2rem;
-    }
-
-    .hero-text p { /* Scale down the title */
-        font-size: 1rem;
-    }
-
-    /* Bread on mobile wont be cramped */
-    .bread-item {
-        flex-direction: column !important;
-        text-align: center;
-        gap: 20px;
-    }
-
-    .bread-item img {
-        width: 100%;
-        max-width: 350px;
-    }
-}
-
-@media (min-width: 768px) {
-    .home-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .hero-text img {
-        height: 550px;
-    }
-}
-
-/*---------------------------- HeroItem-End -----------------------------*/
-
-.cake-intro {
-    color: #6b5b53;
-    text-shadow:
-        0 1px 1px rgba(255,255,255,0.25),
-        0 1px 3px rgba(0,0,0,0.05);
-    font-style: italic;
-    text-align: center;
-    max-width: 700px;
-    margin: 0 auto 2rem auto;
-}
-
-/* class="cake-title"; Title names under cakes, above description */
-.cake-title {
-    text-align: center;
-    font-size: 1.4rem;
-    font-weight: 600;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    letter-spacing: 0.5px;
-}
-
-/* class="caption";Description underneath cake names */
-.caption {
-    text-align: center;
-    font-style: italic;
-    color: #6b5b53;
-    margin-top: 5px;
-    font-size: 0.9rem;
-    letter-spacing: 0.5px;
-}
-
-/* Target specific images - Created custom bakery img class */
-.bake-image {
-    display: block;
-    margin: 25px auto;
-    border-radius: 14px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    background-color: #232323;
 }
 
 /* Center images nicely */
@@ -259,9 +42,278 @@ img:hover {
     This is the hover state, it will be different than 'img' */
 }
 
-.md-header__button.md-icon {  /* Hamburger icon */
-    color: #00b5bb;
+/* Bakery-style titles */
+h1, h2 {
+    color: #f2f2f2;
 
+    text-shadow:
+        0 1px 1px rgba(255,255,255,0.4),
+        0 2px 4px rgba(0,0,0,0.12);
+}
+
+/*------------------------------ HeroItem-Start -----------------------------*/
+
+.home-grid {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.home-card {
+    overflow: hidden; /* image corners follow the card border radius cleanly. */
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background: #232323;
+    border-left: 4px solid #00b5bb;
+    border-radius: 10px;
+    padding: 1rem;
+    transition: all .25s ease;
+}
+
+.home-card:hover {
+    transform: translateY(-4px) scale(1.02);
+    border-left-width: 8px;
+    box-shadow: 0 12px 30px rgba(0,0,0,.18);
+}
+
+.home-card img {
+    margin: 0;
+    border-radius: 0;
+}
+
+.home-card h3 {
+    color: #e0e0e0;
+    text-align: center;
+    margin: 1rem 0 .5rem;
+}
+
+.home-card p {
+    color: #e0e0e0;
+}
+
+.home-link {
+    display: block;
+    text-align: center;
+    margin-top: .75rem;
+}
+
+/* Text styling - Give the text a glass card overlay */
+.hero-text {
+    background: #232323;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+.hero-text img { /* phone first */
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-text h1 {
+    font-size: clamp(3rem, 6vw, 5rem);
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    color: white;
+    text-shadow:
+        0 1px 2px rgba(255,255,255,0.15),
+        0 4px 12px rgba(0,0,0,0.45);
+}
+
+.hero-text p {
+    margin-top: 0; /* pulls tagline closer to bakeology title */
+    color: rgba(255,255,255,0.95);
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-shadow:
+        0 2px 8px rgba(0,0,0,0.7);
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0,0,0,0.60);
+    color: white;
+    padding: 2rem;
+}
+
+.hero-overlay h1 {
+    color: white;
+    font-size: clamp(3rem, 6vw, 5rem);
+    margin-bottom: .5rem;
+}
+
+.hero-overlay p {
+    color: white;
+    font-size: 1.25rem;
+    max-width: 700px;
+}
+
+@media (min-width: 1200px) {
+
+    .home-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .hero-overlay h1 {
+     font-size: 2.5rem;
+    }
+
+    .hero-overlay p {
+      font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .md-header__button.md-icon {
+        color: #00b5bb;
+    }
+
+        /* Make hero shorter on phone - 250px*/
+    .hero {
+        min-height: 300px;
+    }
+
+        /* Mobile gets a tiny glass card */
+    .hero-text {
+        /* background: rgba(35,35,35,0.75); */
+        border: 2px solid rgba(255,255,255,0.25);
+        backdrop-filter: blur(6px);
+        box-shadow:
+            0 8px 25px rgba(0,0,0,0.4);
+        padding: 1rem;
+    }
+
+        /* Scale down the title */
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+        /* Scale down the title */
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+        /* Bread/ on mobile wont be cramped */
+    .bread-item {
+        flex-direction: column !important;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .bread-item img {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .home-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-text img { /* enhanced for larger screens */
+        height: 550px;
+    }
+}
+
+/*---------------------------- HeroItem-End -----------------------------*/
+
+/*---------------------------- pastry -----------------------------*/
+.pastry-intro {
+    color: #cfcfcf;
+    text-shadow:
+        0 1px 1px rgba(255,255,255,0.25),
+        0 1px 3px rgba(0,0,0,0.05);
+    font-style: italic;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+}
+/*---------------------------- pastry -----------------------------*/
+
+/*---------------------------- index -----------------------------*/
+.index-intro {
+    color: #cfcfcf;
+    text-shadow:
+        0 1px 1px rgba(255,255,255,0.25),
+        0 1px 3px rgba(0,0,0,0.05);
+    font-style: italic;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+}
+/*---------------------------- index -----------------------------*/
+
+/*---------------------------- about -----------------------------*/
+.about-intro {
+    color: #cfcfcf;
+    text-shadow:
+        0 1px 1px rgba(255,255,255,0.25),
+        0 1px 3px rgba(0,0,0,0.05);
+    font-style: italic;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+}
+/*---------------------------- about -----------------------------*/
+
+/*---------------------------- cake -----------------------------*/
+.cake-intro {
+    color: #cfcfcf;
+    text-shadow:
+        0 1px 1px rgba(255,255,255,0.25),
+        0 1px 3px rgba(0,0,0,0.05);
+    font-style: italic;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+}
+
+/* class="cake-title"; Title names under cakes, above description */
+.cake-title {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+}
+
+    /* class="caption";Description underneath cake names */
+.caption {
+    text-align: center;
+    font-style: italic;
+    color: #cfcfcf;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+    /* Target specific images - Created custom bakery img class */
+.bake-image {
+    display: block;
+    margin: 25px auto;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+/*---------------------------- cake -----------------------------*/
+
+/*---------------------------- Markdown -----------------------------*/
+    /* Hamburger icon */
+.md-header__button.md-icon {
+    color: #00b5bb;
 }
 
 .md-typeset {
@@ -272,22 +324,14 @@ img:hover {
 .md-typeset h2 {
     margin-top: 3px;
     text-align: center;
-    border-bottom: 2px solid #e8ddd4;
+    border-bottom: 2px solid #404040;
     padding-bottom: 10px;
-    color: #4a4a4a;
+    color: #f2f2f2;
     text-shadow:
         0 1px 1px rgba(255,255,255,0.35),
         0 2px 4px rgba(0,0,0,0.08);
 }
-
-/* Bakery-style titles */
-h1, h2 {
-    color: #3f3f3f;
-
-    text-shadow:
-        0 1px 1px rgba(255,255,255,0.4),
-        0 2px 4px rgba(0,0,0,0.12);
-}
+/*---------------------------- Markdown -----------------------------*/
 
 /*---------------------------- MenuItem-Start -----------------------------*/
 /* rem = Relative to page size */
@@ -299,8 +343,9 @@ h1, h2 {
     gap: 20px;
 }
 
+    /* Pastry image size */
 .menu-item  img {
-    width: 160px;/* Pastry image size */
+    width: 160px;
     height: auto;
     border-radius: 10px;
 
@@ -312,7 +357,7 @@ h1, h2 {
     transition: 0.2s ease;
 }
 
-/* Text Container */
+    /* Text Container */
 .menu-text {
     max-width: 500px;
 }
@@ -324,11 +369,11 @@ h1, h2 {
 
 .menu-text p {
     margin: 5px 0 0;
-    color: #6b5b53;
+    color: #cfcfcf;
     font-size: 0.95rem;
 }
 
-/* Title */
+    /* Title */
 .item-title { /* h3 gave you automatic styling - must manually name it */
     font-size: 1.3rem;
     font-weight: 600;
@@ -340,9 +385,8 @@ h1, h2 {
 /*---------------------------- MenuItem-Stop -----------------------------*/
 
 /*---------------------------- BreadItem-Start -----------------------------*/
-
 .bread-intro {
-    color: #6b5b53;
+    color: #cfcfcf;
     text-shadow:
         0 1px 1px rgba(255,255,255,0.25),
         0 1px 3px rgba(0,0,0,0.05);
@@ -380,7 +424,7 @@ h1, h2 {
 }
 
 .bread-text p {
-    color: #6b5b53;
+    color: #cfcfcf;
 }
 
 @media screen and (max-width: 768px) {
@@ -417,18 +461,12 @@ h1, h2 {
     .bread-text {
         max-width: 100%;
     }
-/*
-We already have:
-    .md-typeset h2 {
-        border-bottom: 2px solid #eee;
-}
-*/
+
     .bread-text h2 { /* Title divider prettier, beige divider works */
-        border-bottom: 2px solid #e8ddd4;
+        border-bottom: 2px solid #404040;
         padding-bottom: 10px;
         margin-bottom: 15px;
     }
-
 }
 /*---------------------------- BreadItem-Stop -----------------------------*/
 
@@ -436,15 +474,8 @@ We already have:
 /* Grid = Layout */
 /* Card = Structure */
 /* Hover = Interaction */
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
-    margin-top: 30px;
-}
-
 .gallery-intro {
-    color: #6b5b53;
+    color: #cfcfcf;
     text-shadow:
         0 1px 1px rgba(255,255,255,0.25),
         0 1px 3px rgba(0,0,0,0.05);
@@ -454,12 +485,21 @@ We already have:
     margin: 0 auto 2rem auto;
 }
 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+/*---------------------------- Gallery-End -----------------------------*/
+
+/*---------------------------- Card-Start -----------------------------*/
 .card {
-    background: #ffffff;
+    color: #f2f2f2;
+    background: #2b2b2b;
     padding: 15px;
     border-radius: 14px;
     text-align: center;
-
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
     transition: 0.2s ease;
 }
@@ -471,18 +511,39 @@ We already have:
 
 .card img {
     width: 100%;
-    height: auto; /* CSS controls the sizing - Much safer this way */
+    height: auto;
     border-radius: 10px;
 }
 
-.pastry-intro {
-    color: #6b5b53;
-    text-shadow:
-        0 1px 1px rgba(255,255,255,0.25),
-        0 1px 3px rgba(0,0,0,0.05);
-    font-style: italic;
-    text-align: center;
-    max-width: 700px;
-    margin: 0 auto 2rem auto;
+.card-icon {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 1rem auto 0.5rem auto;
+
+    border-radius: 0;
+    box-shadow: none;
 }
+
+.card-icon:hover {
+    transform: none;
+    box-shadow: none;
+}
+/*---------------------------- Card-End -----------------------------*/
+/*
+a {
+    color: #00b5bb;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+    color: #00b5bb !important;
+}
+
+.item-title,
+.cake-title {
+    color: #00b5bb;
+}
+*/
+
 /*---------------------------- Gallery-End -----------------------------*/
