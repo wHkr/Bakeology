@@ -8,7 +8,7 @@ hide:
 # Gallery
 
  ---
- 
+
 <p class="gallery-intro">
 Take a look at some of our favorite creations. From custom celebration cakes to fresh pastries and artisan breads, every item is made with attention to detail and a passion for baking.
 </p>
@@ -24,7 +24,9 @@ Take a look at some of our favorite creations. From custom celebration cakes to 
     <div class="card">
         <img src="../img/gallery/candied-grapes.webp">
         <p class="cake-title">Candied Grapes</p>
-        <p class="caption">Everyones favorite frozen fruit<br>***FAST SALE***</p>
+        <p class="caption">Everyones favorite frozen fruit
+        <br>***FAST SALE***
+        </p>
     </div>
     <div class="card">
         <img src="../img/gallery/cheese-cake-bites.webp">
@@ -39,7 +41,9 @@ Take a look at some of our favorite creations. From custom celebration cakes to 
     <div class="card">
         <img src="../img/gallery/dubai-chocolates.webp">
         <p class="cake-title">Dubai Chocolate</p>
-        <p class="caption">Made from scratch, dubai chocolate.<br> ***FAST SALE***</p>
+        <p class="caption">Made from scratch, dubai chocolate.
+        <br> ***FAST SALE***
+        </p>
     </div>
     <div class="card">
         <img src="../img/gallery/key-lime-pie.webp">

@@ -13,13 +13,15 @@ theme:
   name: material
   favicon: img/icons/bakeology.jpg # No leading '/'
   logo: img/icons/logo.png # '/'; indicates to start from root
+
+  palette:
+    - scheme: slate
+      primary: black
+      accent: teal
+
   features:
-    #- header.autohide # Hides header after scrolling down
     - navigation.instant # Internal links wont be totally reloaded - Saves time
     - navigation.instant.progress # Loading indicator
-    #- navigation.tabs # Nav tabs on header under the name
-    #- navigation.tabs.sticky # Nav tabs lock below the header
-    #- navigation.path # Breadcrumbs above title of each page
     - navigation.top # Back to top button after scrolling down
     - search.highlight
     - search.suggest
