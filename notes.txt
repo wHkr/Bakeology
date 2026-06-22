@@ -42,6 +42,73 @@ CSS colors
 Charcoal: #4a4a4a
 Cream:    #faf7f2
 Teal:     #00b5bb
+
+
+--Glass cards --
+/*
+Move the glass cards back into .hero-text, make this
+full banner again using the .jpg
+    background-image: url("../img/hero/background-img.jpg");
+    position: relative;
+    z-index: 1;
+    color: white;
+    background: rgba(75, 74, 74, 0.35);
+    backdrop-filter: blur(10px);
+    padding: 2rem 4rem;
+    border-radius: 20px;
+    box-shadow:
+        0 10px 35px rgba(0,0,0,0.30);
+    border: 1px solid rgba(255,255,255,0.15);
+    max-width: 850px;
+    width: min(90%, 850px);
+*/
+
+--Hero Button--
+/*
+.hero-button {
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+*/
+
+--Soft card look--
+/* Add soft card look to sections */
+/*.md-typeset h2 {
+    margin-top: 3px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    text-align: center;
+}*/
+
+----.-intro files----
+/*
+.bread-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+    color: #6b5b53;
+    font-style: italic;
+}*/
+/*
+.gallery-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+
+    color: #6b5b53;
+    font-style: italic;
+}*/
+/*
+.pastry-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+    color: #6b5b53;
+    font-style: italic;
+}*/
 ---------------------------------------
 > `favicon.ico` - This icon is specific to the tab in your computer window.
         - its not on the web page

@@ -5,7 +5,12 @@ hide:
 ---
 <!-- about.md -->
 # About
----
-Bakeology began with a simple passion: creating fresh baked goods that taste as good as they look. We believe that great baking starts with quality ingredients, patience, and attention to detail.
 
-Whether you're stopping by for a morning pastry, ordering a birthday cake, or picking up a fresh loaf of bread, we're committed to providing products that make every day a little sweeter.
+---
+
+<p class="about-intro">
+Bakeology started in a basement kitchen with a few pieces of equipment, a lot of determination, and a passion for making great food. What we lacked in space, we made up for with hard work and a commitment to our customers.
+<br>
+<br>
+Over the years, we've slowly grown, upgraded our equipment, and expanded what we're able to offer. Through busy seasons, late nights, and the occasional rough day, one thing has never changed: our customers come first. We're proud of where we started, grateful for how far we've come, and excited to keep serving our community for years to come.
+</p>

@@ -5,11 +5,41 @@ hide:
 ---
 
 <div class="hero-text">
-    <img src="img/hero/background-img.jpg">
-    <h1>Bakeology</h1>
-    <p>Sweet goods to sweeten up your taste buds!</p>
+    <img src="img/hero/background-img.jpg" alt="Bakeology">
+    <div class="hero-overlay">
+        <h1>Bakeology</h1>
+        <p>Freshly baked breads, pastries, cakes, and desserts made with care.</p>
+    </div>
 </div>
 
-> Welcome to Bakeology, where every loaf, pastry, and cake is crafted with care. From fresh-baked breads to custom celebration cakes, our goal is to bring people together through quality ingredients and timeless recipes.
+## Explore Bakeology
 
-> Browse our selection of artisan breads, handcrafted pastries, and custom cakes to find the perfect treat for any occasion.
+From fresh breads and pastries to custom cakes and special orders, discover everything Bakeology has to offer.
+
+<div class="home-grid">
+
+<a href="breads/" class="home-card">
+    <img src="img/cards/bread.jpg" alt="Bread">
+    <h3>🍞 Bread</h3>
+    <a href="breads/" class="home-link">Browse Bread →</a>
+</a>
+
+<a href="pastries/" class="home-card">
+    <img src="img/cards/pastries.jpg" alt="Pastries">
+    <h3>🥐 Pastries</h3>
+    <a href="pastries/" class="home-link">View Pastries →</a>
+</a>
+
+<a href="cakes/" class="home-card">
+    <img src="img/cards/cakes.jpg" alt="Cakes">
+    <h3>🎂 Cakes</h3>
+    <a href="cakes/" class="home-link">See Cakes →</a>
+</a>
+
+<a href="contact/" class="home-card">
+    <img src="img/cards/contact.webp" alt="Visit Us">
+    <h3>📍 Visit Us</h3>
+    <a href="contact/" class="home-link">Hours & Location →</a>
+</a>
+
+</div>
