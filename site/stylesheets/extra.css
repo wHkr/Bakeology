@@ -158,76 +158,6 @@ h1, h2 {
     max-width: 700px;
 }
 
-@media (min-width: 1200px) {
-
-    .home-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .hero-overlay h1 {
-     font-size: 2.5rem;
-    }
-
-    .hero-overlay p {
-      font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
-
-    .md-header__button.md-icon {
-        color: #00b5bb;
-    }
-
-        /* Make hero shorter on phone - 250px*/
-    .hero {
-        min-height: 300px;
-    }
-
-        /* Mobile gets a tiny glass card */
-    .hero-text {
-        /* background: rgba(35,35,35,0.75); */
-        border: 2px solid rgba(255,255,255,0.25);
-        backdrop-filter: blur(6px);
-        box-shadow:
-            0 8px 25px rgba(0,0,0,0.4);
-        padding: 1rem;
-    }
-
-        /* Scale down the title */
-    .hero-text h1 {
-        font-size: 2rem;
-    }
-
-        /* Scale down the title */
-    .hero-text p {
-        font-size: 1rem;
-    }
-
-        /* Bread/ on mobile wont be cramped */
-    .bread-item {
-        flex-direction: column !important;
-        text-align: center;
-        gap: 20px;
-    }
-
-    .bread-item img {
-        width: 100%;
-        max-width: 350px;
-    }
-}
-
-@media (min-width: 768px) {
-
-    .home-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .hero-text img { /* enhanced for larger screens */
-        height: 550px;
-    }
-}
-
 /*---------------------------- HeroItem-End -----------------------------*/
 
 /*---------------------------- pastry -----------------------------*/
@@ -425,7 +355,62 @@ h1, h2 {
     color: #cfcfcf;
 }
 
+@media (min-width: 1200px) {
+
+    .home-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .hero-overlay h1 {
+     font-size: 2.5rem;
+    }
+
+    .hero-overlay p {
+      font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .home-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-text img { /* enhanced for larger screens */
+        height: 550px;
+    }
+}
+
 @media screen and (max-width: 768px) {
+
+        /* Make hero shorter on phone - 250px*/
+    .hero {
+        min-height: 300px;
+    }
+
+        /* Mobile gets a tiny glass card */
+    .hero-text {
+        /* background: rgba(35,35,35,0.75); */
+        border: 2px solid rgba(255,255,255,0.25);
+        backdrop-filter: blur(6px);
+        box-shadow:
+            0 8px 25px rgba(0,0,0,0.4);
+        padding: 1rem;
+    }
+
+        /* Scale down the title */
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+        /* Scale down the title */
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .md-header__button.md-icon {
+        color: #00b5bb;
+    }
 
     .bread-item:nth-child(even) { /* Stack everything vertically */
         flex-direction: column;
@@ -448,6 +433,9 @@ h1, h2 {
         box-shadow:
             0 6px 18px rgba(0,0,0,0.08);
         margin: 25px 0;
+        flex-direction: column; /* mobile bread/ wont be cramped */
+        text-align: center;
+        gap: 20px;
     }
 
     .bread-item img {
@@ -518,7 +506,6 @@ h1, h2 {
     width: 32px;
     height: 32px;
     margin: 1rem auto 0.5rem auto;
-
     border-radius: 0;
     box-shadow: none;
 }
