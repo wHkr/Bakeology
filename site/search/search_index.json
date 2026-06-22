@@ -1,1 +1,88 @@
-{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Home","text":"Bakeology <p>Freshly baked breads, pastries, cakes, and desserts made with care.</p>"},{"location":"#explore-bakeology","title":"Explore Bakeology","text":"<p> From fresh breads and pastries to custom cakes and special orders, discover everything Bakeology has to offer. </p> \ud83c\udf5e Bread <p>Browse Bread \u2192</p> \ud83e\udd50 Pastries <p>View Pastries \u2192</p> \ud83c\udf82 Cakes <p>See Cakes \u2192</p> \ud83d\udccd Visit Us <p>Hours &amp; Location \u2192</p>"},{"location":"about/","title":"About","text":""},{"location":"about/#about","title":"About","text":"<p> Bakeology started in a basement kitchen with a few pieces of equipment, a lot of determination, and a passion for making great food. What we lacked in space, we made up for with hard work and a commitment to our customers.   Over the years, we've slowly grown, upgraded our equipment, and expanded what we're able to offer. Through busy seasons, late nights, and the occasional rough day, one thing has never changed: our customers come first. We're proud of where we started, grateful for how far we've come, and excited to keep serving our community for years to come. </p>"},{"location":"breads/","title":"Breads","text":""},{"location":"breads/#fresh-artisan-breads","title":"Fresh Artisan Breads","text":"<p> Our breads are crafted using traditional techniques, quality ingredients, and plenty of patience. From rustic sourdough loaves to soft sandwich breads, each loaf is baked to bring warmth and flavor to your table. </p> Artisan Loaf <p>Handcrafted bread with a crisp crust and soft, airy interior, baked fresh daily.</p> Blueberry Sourdough <p>Slow-fermented dough with a tangy flavor and perfectly chewy texture.</p> Jalapeno Sourdough <p>Slow-fermented dough with a tangy flavor and perfectly chewy texture.</p> Sourdough <p>Slow-fermented dough with a tangy flavor and perfectly chewy texture.</p>"},{"location":"cakes/","title":"Cakes","text":""},{"location":"cakes/#cakes","title":"Cakes","text":"<p> Our cakes are made to celebrate life's special moments. We offer classic flavors, custom designs, and seasonal creations for birthdays, weddings, anniversaries, and more. </p> <p></p> <p>Raspberry Chocolate Cheesecake</p> <p>     A rich, velvety cheesecake layered with deep chocolate and swirled with vibrant raspberry. </p> <p></p> <p>Chocolate Fudge Cake</p> <p>     Rich chocolate fudge layer cake with glossy frosting and decorative piping on a serving plate </p> <p></p> <p>Vanilla Bean Cake</p> <p>     Classic vanilla bean cake with smooth frosting and subtle decorative accents in a bakery display </p> <p></p> <p>Raspberry Cheese Cake</p> <p>     Raspberry cheesecake topped with fresh berries on a light-colored plate in a bright setting </p> <p></p> <p>Red Velvet Cake</p> <p>     Red velvet cake with cream cheese frosting displayed on a white cake stand and warm cozy atmosphere </p> <p></p> <p>Lemon Raspberry Cake</p> <p>     A light and refreshing cake infused with bright lemon flavor and layered with sweet-tart raspberry filling. </p> <p></p> <p>Strawberry Short Cake</p> <p>     Strawberry shortcake layered with whipped cream and ripe strawberries on a rustic serving platter </p>"},{"location":"contact/","title":"Contact","text":""},{"location":"contact/#contact","title":"Contact","text":"<p>Phone: (555) 123-4567</p> <p>Email: hello@bakeology.com</p> <p>Hours:</p> <ul> <li>Monday\u2013Friday: 7 AM \u2013 6 PM</li> <li>Saturday: 8 AM \u2013 4 PM</li> <li>Sunday: Closed</li> </ul>"},{"location":"contact/#follow-bakeology","title":"Follow Bakeology","text":"<p>[!WARNING] Placeholder social media accounts. Replace before publishing.</p> <p>Stay connected and see our latest creations, seasonal specials, and behind-the-scenes baking.</p> <p>\ud83d\udcf8 Instagram @BakeologyOfficial</p> <p>\ud83d\udc4d Facebook facebook.com/BakeologyOfficial</p> <p>\ud83c\udfa5 TikTok @BakeologyBakes</p> <p>\ud83d\udccc Pinterest @BakeologyBakery</p> <p>\u25b6\ufe0f YouTube @BakeologyBakery</p> <p>\ud83d\udc26 X (Twitter) @BakeologyBakes</p> <p>\ud83d\udcbc LinkedIn linkedin.com/company/bakeology-bakery</p>"},{"location":"gallery/","title":"Gallery","text":""},{"location":"gallery/#gallery","title":"Gallery","text":"<p> Take a look at some of our favorite creations. From custom celebration cakes to fresh pastries and artisan breads, every item is made with attention to detail and a passion for baking. </p> <p>Tomales</p> <p>Fresh home made Red or Green chilli tomales</p> <p>Candied Grapes</p> <p>Everyones favorite frozen fruit         ***FAST SALE***         </p> <p>Cheescake Bites</p> <p>Full size flavor made bite size</p> <p>Cherry Topped Cheesecake</p> <p>Cherry cheesecake with homemade topping</p> <p>Dubai Chocolate</p> <p>Made from scratch, dubai chocolate.          ***FAST SALE***         </p> <p>Key Lime Pie</p> <p>Nobody can really turn down a good KLP</p>"},{"location":"pastries/","title":"Pastries","text":""},{"location":"pastries/#handcrafted-pastries","title":"Handcrafted Pastries","text":"<p> From flaky croissants to sweet danishes and seasonal favorites, our pastries are baked fresh and made with quality ingredients. </p> <p>Heart Shaped Pastries</p> <p>Flaky, golden pastry with a rich buttery finish. Classic comforting finish with every bite.</p> <p>Macaroons</p> <p>Crisp on the outside with a soft, chewy center, these delicate treats are filled with smooth, flavorful cream.</p> <p>Filled Pastry</p> <p>Soft and rich with a lightly crisp edge, this pastry delivers a classic, comforting sweetness with every bite.</p> <p>Light Puff Pastry</p> <p>Light, airy pastry with a delicate texture and subtle sweetness, perfect for a soft and satisfying bite.</p> <p>Pastry Assortment - Catered Event</p> <p>An assortment of handcrafted pastries presented together, offering a variety of textures and flavors to enjoy in one selection.</p>"}]}
+{
+    "config": {
+        "lang": [
+            "en"
+        ],
+        "separator": "[\\s\\-]+",
+        "pipeline": [
+            "stopWordFilter"
+        ]
+    },
+    "docs": [
+        {
+            "location": "",
+            "title": "Home",
+            "text": "Bakeology <p>Freshly baked breads, pastries, cakes, and desserts made with care.</p>"
+        },
+        {
+            "location": "#explore-bakeology",
+            "title": "Explore Bakeology",
+            "text": "<p> From fresh breads and pastries to custom cakes and special orders, discover everything Bakeology has to offer. </p> \ud83c\udf5e Bread <p>Browse Bread \u2192</p> \ud83e\udd50 Pastries <p>View Pastries \u2192</p> \ud83c\udf82 Cakes <p>See Cakes \u2192</p> \ud83d\udccd Visit Us <p>Hours &amp; Location \u2192</p>"
+        },
+        {
+            "location": "about/",
+            "title": "About",
+            "text": ""
+        },
+        {
+            "location": "about/#about",
+            "title": "About",
+            "text": "<p> Bakeology started in a basement kitchen with a few pieces of equipment, a lot of determination, and a passion for making great food. What we lacked in space, we made up for with hard work and a commitment to our customers.   Over the years, we've slowly grown, upgraded our equipment, and expanded what we're able to offer. Through busy seasons, late nights, and the occasional rough day, one thing has never changed: our customers come first. We're proud of where we started, grateful for how far we've come, and excited to keep serving our community for years to come. </p>"
+        },
+        {
+            "location": "breads/",
+            "title": "Breads",
+            "text": ""
+        },
+        {
+            "location": "breads/#fresh-artisan-breads",
+            "title": "Fresh Artisan Breads",
+            "text": "<p> Our breads are crafted using traditional techniques, quality ingredients, and plenty of patience. From rustic sourdough loaves to soft sandwich breads, each loaf is baked to bring warmth and flavor to your table. </p> Artisan Loaf <p>Handcrafted bread with a crisp crust and soft, airy interior, baked fresh daily.</p> Blueberry Sourdough <p>Slow-fermented dough with a tangy flavor and perfectly chewy texture.</p> Jalapeno Sourdough <p>Slow-fermented dough with a tangy flavor and perfectly chewy texture.</p> Sourdough <p>Slow-fermented dough with a tangy flavor and perfectly chewy texture.</p>"
+        },
+        {
+            "location": "cakes/",
+            "title": "Cakes",
+            "text": ""
+        },
+        {
+            "location": "cakes/#cakes",
+            "title": "Cakes",
+            "text": "<p> Our cakes are made to celebrate life's special moments. We offer classic flavors, custom designs, and seasonal creations for birthdays, weddings, anniversaries, and more. </p> <p></p> <p>Raspberry Chocolate Cheesecake</p> <p>     A rich, velvety cheesecake layered with deep chocolate and swirled with vibrant raspberry. </p> <p></p> <p>Chocolate Fudge Cake</p> <p>     Rich chocolate fudge layer cake with glossy frosting and decorative piping on a serving plate </p> <p></p> <p>Vanilla Bean Cake</p> <p>     Classic vanilla bean cake with smooth frosting and subtle decorative accents in a bakery display </p> <p></p> <p>Raspberry Cheese Cake</p> <p>     Raspberry cheesecake topped with fresh berries on a light-colored plate in a bright setting </p> <p></p> <p>Red Velvet Cake</p> <p>     Red velvet cake with cream cheese frosting displayed on a white cake stand and warm cozy atmosphere </p> <p></p> <p>Lemon Raspberry Cake</p> <p>     A light and refreshing cake infused with bright lemon flavor and layered with sweet-tart raspberry filling. </p> <p></p> <p>Strawberry Short Cake</p> <p>     Strawberry shortcake layered with whipped cream and ripe strawberries on a rustic serving platter </p>"
+        },
+        {
+            "location": "contact/",
+            "title": "Contact",
+            "text": ""
+        },
+        {
+            "location": "contact/#contact",
+            "title": "Contact",
+            "text": "<p>Phone: (555) 123-4567</p> <p>Email: hello@bakeology.com</p> <p>Hours:</p> <ul> <li>Monday\u2013Friday: 7 AM \u2013 6 PM</li> <li>Saturday: 8 AM \u2013 4 PM</li> <li>Sunday: Closed</li> </ul>"
+        },
+        {
+            "location": "contact/#follow-bakeology",
+            "title": "Follow Bakeology",
+            "text": "<p>[!WARNING] Placeholder social media accounts. Replace before publishing.</p> <p>Stay connected and see our latest creations, seasonal specials, and behind-the-scenes baking.</p> <p>\ud83d\udcf8 Instagram @BakeologyOfficial</p> <p>\ud83d\udc4d Facebook facebook.com/BakeologyOfficial</p> <p>\ud83c\udfa5 TikTok @BakeologyBakes</p> <p>\ud83d\udccc Pinterest @BakeologyBakery</p> <p>\u25b6\ufe0f YouTube @BakeologyBakery</p> <p>\ud83d\udc26 X (Twitter) @BakeologyBakes</p> <p>\ud83d\udcbc LinkedIn linkedin.com/company/bakeology-bakery</p>"
+        },
+        {
+            "location": "gallery/",
+            "title": "Gallery",
+            "text": ""
+        },
+        {
+            "location": "gallery/#gallery",
+            "title": "Gallery",
+            "text": "<p> Take a look at some of our favorite creations. From custom celebration cakes to fresh pastries and artisan breads, every item is made with attention to detail and a passion for baking. </p> <p>Tomales</p> <p>Fresh home made Red or Green chilli tomales</p> <p>Candied Grapes</p> <p>Everyones favorite frozen fruit         ***FAST SALE***         </p> <p>Cheescake Bites</p> <p>Full size flavor made bite size</p> <p>Cherry Topped Cheesecake</p> <p>Cherry cheesecake with homemade topping</p> <p>Dubai Chocolate</p> <p>Made from scratch, dubai chocolate.          ***FAST SALE***         </p> <p>Key Lime Pie</p> <p>Nobody can really turn down a good KLP</p>"
+        },
+        {
+            "location": "pastries/",
+            "title": "Pastries",
+            "text": ""
+        },
+        {
+            "location": "pastries/#handcrafted-pastries",
+            "title": "Handcrafted Pastries",
+            "text": "<p> From flaky croissants to sweet danishes and seasonal favorites, our pastries are baked fresh and made with quality ingredients. </p> <p>Heart Shaped Pastries</p> <p>Flaky, golden pastry with a rich buttery finish. Classic comforting finish with every bite.</p> <p>Macaroons</p> <p>Crisp on the outside with a soft, chewy center, these delicate treats are filled with smooth, flavorful cream.</p> <p>Filled Pastry</p> <p>Soft and rich with a lightly crisp edge, this pastry delivers a classic, comforting sweetness with every bite.</p> <p>Light Puff Pastry</p> <p>Light, airy pastry with a delicate texture and subtle sweetness, perfect for a soft and satisfying bite.</p> <p>Pastry Assortment - Catered Event</p> <p>An assortment of handcrafted pastries presented together, offering a variety of textures and flavors to enjoy in one selection.</p>"
+        }
+    ]
+}
