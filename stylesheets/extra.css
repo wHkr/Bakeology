@@ -1,58 +1,38 @@
 /* extra.css - css for Bakeology */
 
-:root {
-  --md-primary-fg-color: #f2f2f2; /* 4a4a4a */
-  --md-accent-fg-color: #00b5bb;
-}
-/* Custome colors
-#232323
-#2b2b2b
-#00b5bb -
-*/
-
-/* Soft background feel */
+/*------------------------------ Global values -----------------------------*/
 body {
     background-color: #232323;
 }
 
-/* Center images nicely */
-img {
-    display: block; /*Auto Center*/
-    margin: 25px auto; /*Auto Center*/
+img { /* Center images */
+    display: block;
+    margin: 25px auto;
     border-radius: 14px;
-
-/* Shadow effect */
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12); /*
-    0 -> horizontal shadow
-    4px -> vertical drop
-    12px -> blue (softness)
-    rgba -> color + transparency */
-
-/* Controls how changes happen over time */
-    transition: box-shadow 0.2s ease; /*
-    0.2s -> Duration (how long)
-    ease -> Speed curve (how it accelerates) */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    transition: box-shadow 0.2s ease;
 }
 
-/* Image hover effect */
-img:hover {
-    transform: translateY(-3px);/*scale(1.02);*/
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18); /*
-    The normal image state is class="img"
-    This is the hover state, it will be different than 'img' */
+img:hover { /* Image hover effect */
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
 }
 
-/* Bakery-style titles */
-h1, h2 {
+h1, h2 { /* Bakery-style titles */
     color: #f2f2f2;
-
     text-shadow:
         0 1px 1px rgba(255,255,255,0.4),
         0 2px 4px rgba(0,0,0,0.12);
 }
 
-/*------------------------------ HeroItem-Start -----------------------------*/
+:root {
+  --md-primary-fg-color: #f2f2f2;
+  --md-accent-fg-color: #00b5bb;
+}
+/*------------------------------ Global values -----------------------------*/
 
+
+/*------------------------------ HeroItem-Start -----------------------------*/
 .home-grid {
     display: grid;
     gap: 1.5rem;
@@ -66,8 +46,6 @@ h1, h2 {
     color: inherit;
     background: #2b2b2b;
     border-left: 4px solid #00b5bb;
-    border: 1px solid rgba(255,255,255,0.06);
-    border-radius: 10px;
     box-shadow:
         0 6px 16px rgba(0,0,0,0.40),
         0 16px 32px rgba(0,0,0,0.25);
@@ -413,10 +391,6 @@ h1, h2 {
         /* Scale down the title */
     .hero-text p {
         font-size: 1rem;
-    }
-
-    .md-header__button.md-icon {
-        color: #00b5bb;
     }
 
     .bread-item:nth-child(even) { /* Stack everything vertically */
