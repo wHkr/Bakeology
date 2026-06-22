@@ -348,7 +348,6 @@ h1, h2 {
     width: 160px;
     height: auto;
     border-radius: 10px;
-
     box-shadow: 0 6px 16px rgba(0,0,0,0.12);
 }
 
@@ -406,7 +405,6 @@ h1, h2 {
 .bread-item img {
     width: 300px;
     border-radius: 14px;
-
     box-shadow: 0 8px 24px rgba(0,0,0,0.12);
 }
 
@@ -444,7 +442,7 @@ h1, h2 {
     }
 
     .bread-item { /* Turn each bread item into a card */
-        background: white;
+        background: #2b2b2b;
         padding: 20px;
         border-radius: 16px;
         box-shadow:
@@ -530,20 +528,5 @@ h1, h2 {
     box-shadow: none;
 }
 /*---------------------------- Card-End -----------------------------*/
-/*
-a {
-    color: #00b5bb;
-}
-
-.md-tabs__link:hover,
-.md-tabs__link--active {
-    color: #00b5bb !important;
-}
-
-.item-title,
-.cake-title {
-    color: #00b5bb;
-}
-*/
 
 /*---------------------------- Gallery-End -----------------------------*/
