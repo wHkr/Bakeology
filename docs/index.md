@@ -27,13 +27,13 @@ From fresh breads and pastries to custom cakes and special orders, discover ever
   </a>
 
   <a href="pastries/" class="home-card">
-      <img src="img/cards/pastries.jpg" alt="Pastries">
+      <img src="img/cards/pastries.JPG" alt="Pastries">
       <h3>🥐 Pastries</h3>
       <p>View Pastries →</p>
   </a>
 
   <a href="cakes/" class="home-card">
-      <img src="img/cards/cakes.jpg" alt="Cakes">
+      <img src="img/cards/cakes.JPG" alt="Cakes">
       <h3>🎂 Cakes</h3>
       <p>See Cakes →</p>
   </a>

@@ -26,6 +26,9 @@
     
       <link rel="stylesheet" href="assets/stylesheets/main.a40c8224.min.css">
       
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
       
 
 
@@ -55,7 +58,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="teal">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -105,6 +115,18 @@
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="teal"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
     
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -432,34 +454,41 @@
 </div>
 
 <h2 id="explore-bakeology">Explore Bakeology</h2>
-<p>From fresh breads and pastries to custom cakes and special orders, discover everything Bakeology has to offer.</p>
+<p class="index-intro">
+From fresh breads and pastries to custom cakes and special orders, discover everything Bakeology has to offer.
+</p>
+
 <div class="home-grid">
 
-<a href="breads/" class="home-card">
-    <img src="img/cards/bread.jpg" alt="Bread">
-    <h3>🍞 Bread</h3>
-    <a href="breads/" class="home-link">Browse Bread →</a>
-</a>
+  <a href="breads/" class="home-card">
+      <img src="img/cards/bread.JPG" alt="Bread">
+        <h3>🍞 Bread</h3>
+      <p>Browse Bread →</p>
+  </a>
 
-<a href="pastries/" class="home-card">
-    <img src="img/cards/pastries.jpg" alt="Pastries">
-    <h3>🥐 Pastries</h3>
-    <a href="pastries/" class="home-link">View Pastries →</a>
-</a>
+  <a href="pastries/" class="home-card">
+      <img src="img/cards/pastries.JPG" alt="Pastries">
+      <h3>🥐 Pastries</h3>
+      <p>View Pastries →</p>
+  </a>
 
-<a href="cakes/" class="home-card">
-    <img src="img/cards/cakes.jpg" alt="Cakes">
-    <h3>🎂 Cakes</h3>
-    <a href="cakes/" class="home-link">See Cakes →</a>
-</a>
+  <a href="cakes/" class="home-card">
+      <img src="img/cards/cakes.JPG" alt="Cakes">
+      <h3>🎂 Cakes</h3>
+      <p>See Cakes →</p>
+  </a>
 
-<a href="contact/" class="home-card">
-    <img src="img/cards/contact.webp" alt="Visit Us">
-    <h3>📍 Visit Us</h3>
-    <a href="contact/" class="home-link">Hours & Location →</a>
-</a>
+  <a href="contact/" class="home-card">
+      <img src="img/cards/contact.webp" alt="Visit Us">
+      <h3>📍 Visit Us</h3>
+      <p>Hours & Location →</p>
+  </a>
 
 </div>
+
+<!---
+🍞  <img src="img/icons/png/bread-32.png" class="card-icon" alt="Bread">
+-->
 
 
 
